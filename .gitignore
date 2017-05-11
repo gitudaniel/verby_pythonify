@@ -89,7 +89,7 @@ ENV/
 .ropeproject
 
 # migration files 
-rango/migrations/00*
+verby/migrations/00*
 
 # Logs and databases 
 *.log
