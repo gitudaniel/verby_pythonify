@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Verby</title>
+    </head>
+
+    <body>
+        <h1>Enter your details here</h1>
+        <div>
+            <form id="writer_form" method="post" action="/writers/signup/">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" name="submit" value="Create Account" />
+            </form>
+        </div>
+    </body>
+</html>
