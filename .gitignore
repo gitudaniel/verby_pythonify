@@ -87,3 +87,15 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# migration files 
+rango/migrations/00*
+
+# Logs and databases 
+*.log
+*.sql
+*.sqlite*
+
+# VIM
+.*.swo
+.*.swp
